@@ -1,0 +1,33 @@
+/*===========================СЛАЙДЕР================================*/
+.slick-track {
+  display: flex;
+}
+
+.flex_card_slider {
+  position: relative;
+}
+.flex_card_slider .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 8;
+  font-size: 0;
+  width: 30px;
+  height: 50px;
+  background-color: #ffe7d4;
+  background-repeat: no-repeat;
+}
+.flex_card_slider .slick-arrow.slick-prev {
+  background-image: url(../img/icon/left-arrow.svg);
+  transform: scale(-1, 1);
+  left: 0;
+  margin-bottom: -60px;
+  margin-left: 20px;
+  z-index: 5;
+}
+.flex_card_slider .slick-arrow.slick-next {
+  background-image: url(../img/icon/left-arrow.svg);
+  right: 0;
+  margin-bottom: -60px;
+  margin-right: 20px;
+  z-index: 5;
+}
