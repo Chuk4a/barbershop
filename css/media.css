@@ -206,6 +206,9 @@
 }
 
 @media (max-width: 624px) {
+  .main_section_flex {  /*----------------------------*/
+    gap: 120px;
+  }
   .flex_block-card {
     height: 420px;
   }
